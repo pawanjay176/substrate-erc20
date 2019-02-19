@@ -174,6 +174,7 @@ impl sudo::Trait for Runtime {
 }
 
 impl erc20::Trait for Runtime {
+	type TokenBalance = u128;
 	type Event = Event;
 }
 

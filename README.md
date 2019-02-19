@@ -1,8 +1,8 @@
 # Substrate ERC20
 
-A Parity Substrate SRML module for _single_ ERC20 token. Only one token is implemented as a runtime and is initialized using genesis config.
+A Parity Substrate SRML module implementing the ERC20 interface. Only a single token is implemented and is initialized using the genesis config.
 
-For multi token ERC20 runtime, check out [substrate-erc20-multi](https://github.com/parity-samples/substrate-erc20-multi)
+For a multi token runtime, check out [substrate-erc20-multi](https://github.com/parity-samples/substrate-erc20-multi)
 
 ### Important Note
 
