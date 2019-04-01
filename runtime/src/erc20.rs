@@ -20,7 +20,6 @@ decl_module! {
 
       // initialize the token
       // transfers the total_supply amout to the caller
-      // the token becomes usable
       // not part of ERC20 standard interface
       // replicates the ERC20 smart contract constructor functionality
       fn init(origin) -> Result {
