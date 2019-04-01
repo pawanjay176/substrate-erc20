@@ -6,8 +6,7 @@ use support::{dispatch::Result, StorageMap, Parameter, StorageValue, decl_storag
 use system::{self, ensure_signed};
 use runtime_primitives::traits::{CheckedSub, CheckedAdd, Member, SimpleArithmetic, As};
 
-// the module trait
-// contains type definitions
+// the module configuration trait
 pub trait Trait: system::Trait {
     type Event: From<Event<Self>> + Into<<Self as system::Trait>::Event>;
     type TokenBalance: Parameter + Member + SimpleArithmetic + Codec + Default + Copy + As<usize> + As<u64>;
